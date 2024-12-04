@@ -1,0 +1,1 @@
+declare var FB: any;  // Declare FB as a global variable

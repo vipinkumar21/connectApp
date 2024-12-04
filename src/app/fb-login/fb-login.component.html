@@ -1,0 +1,8 @@
+<div *ngIf="!isLoggedIn">
+    <button (click)="loginWithFacebook()">Login with Facebook</button>
+</div>
+<div *ngIf="isLoggedIn">
+    <p>You are logged in!</p>
+    <button (click)="logout()">Logout</button>
+</div>
+
