@@ -14,7 +14,7 @@ export const routes: Routes = [
     },
     {
         path:'',
-        component:FbLoginComponent
+        component:GoogleConnectComponent
     },
     {
         path:'google',
