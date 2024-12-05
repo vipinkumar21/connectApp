@@ -1,6 +1,7 @@
 import { Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
 import { FbLoginComponent } from './fb-login/fb-login.component';
+import { GoogleConnectComponent } from './google-connect/google-connect.component';
 
 export const routes: Routes = [
     {
@@ -14,6 +15,10 @@ export const routes: Routes = [
     {
         path:'',
         component:FbLoginComponent
+    },
+    {
+        path:'google',
+        component:GoogleConnectComponent
     }
 
 ];
