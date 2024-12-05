@@ -1,0 +1,23 @@
+.custom-facebook-btn {
+    background-color: #4267B2;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    display: inline-flex;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .custom-facebook-btn:hover {
+    background-color: #365899;
+  }
+  
+  .custom-facebook-btn i {
+    margin-right: 10px;
+    font-size: 18px;
+  }
+  
